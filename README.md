@@ -65,8 +65,5 @@
 
 ---
 
-<!-- phil -->
-![philosophy](https://capsule-render.vercel.app/api?type=soft&color=1e40af&height=110&section=footer&text=Predictable%20Systems%20Beat%20Clever%20Code&fontSize=26&fontColor=ffffff&fontFamily=JetBrains+Mono)
-
 <!-- footer -->
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:1e40af&height=160&section=footer)
