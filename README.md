@@ -7,7 +7,7 @@
 ---
 
 <!-- what i do -->
-![build](https://capsule-render.vercel.app/api?type=rounded&color=0:1e3a8a,100:2563eb&height=100&section=header&text=What%20I%20Engineer&fontSize=30&fontColor=ffffff&fontFamily=JetBrains+Mono&animation=fadeIn)
+![build](https://capsule-render.vercel.app/api?type=rounded&color=0:1e3a8a,100:2563eb&height=100&section=header&text=What%20I%20Do&fontSize=30&fontColor=ffffff&fontFamily=JetBrains+Mono&animation=fadeIn)
 
 - 🤖 **FTC robotics** - Team #18886  
 - ⚙️ **Control systems** - modeling, simulation  
