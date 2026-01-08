@@ -7,7 +7,7 @@
 ---
 
 <!-- what i do -->
-![build](https://capsule-render.vercel.app/api?type=rounded&color=0:1e3a8a,100:2563eb&height=100&section=header&text=What%20I%20Do&fontSize=30&fontColor=ffffff&fontFamily=JetBrains+Mono&animation=fadeIn)
+![build](https://capsule-render.vercel.app/api?type=rounded&color=0:1e3a8a,100:2563eb&height=100&section=header&text=What%20I%20Do&fontSize=30&fontColor=ffffff&fontFamily=JetBrains+Mono)
 
 - 🤖 **FTC robotics** - Team #18886  
 - ⚙️ **Control systems** - modeling, simulation  
@@ -17,7 +17,7 @@
 ---
 
 <!-- CURRENTLY LEARNING -->
-![learning](https://capsule-render.vercel.app/api?type=soft&color=2563eb&height=90&section=header&text=Currently%20Learning&fontSize=26&fontColor=ffffff&fontFamily=JetBrains+Mono&animation=fadeIn)
+![learning](https://capsule-render.vercel.app/api?type=rounded&color=0:1e3a8a,100:2563eb&height=100&section=header&text=Currently%20Learning&fontSize=30&fontColor=ffffff&fontFamily=JetBrains+Mono)
 
 - 📐 Motion profiling + FTC RoadRunner
 - 🧮 State-Space Control System
@@ -51,7 +51,7 @@
 ---
 
 <!-- contact -->
-![contact](https://capsule-render.vercel.app/api?type=soft&color=2563eb&height=90&section=footer&text=Contact&fontSize=26&fontColor=ffffff&fontFamily=JetBrains+Mono)
+![contact](https://capsule-render.vercel.app/api?type=rounded&color=0:1e3a8a,100:2563eb&height=100&section=header&text=Contact%20Me&fontSize=30&fontColor=ffffff&fontFamily=JetBrains+Mono)
 
 <p align="center">
   <a href="https://github.com/KingJayan">
