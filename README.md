@@ -43,13 +43,6 @@
 
 ---
 
-<!-- Sstats -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KingJayan&show_icons=true&hide_border=true&theme=transparent" />
-</p>
-
----
-
 <!-- contact -->
 ![contact](https://capsule-render.vercel.app/api?type=rounded&color=0:1e3a8a,100:2563eb&height=100&section=header&text=Contact%20Me&fontSize=30&fontColor=ffffff&fontFamily=JetBrains+Mono)
 
