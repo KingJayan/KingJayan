@@ -2,7 +2,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2563eb&height=280&section=header&text=Engineering%20Systems&fontSize=44&fontAlignY=36&animation=fadeIn&fontColor=ffffff&fontFamily=JetBrains+Mono)
 
 <!-- sub -->
-![subtitle](https://capsule-render.vercel.app/api?type=rect&color=1e3a8a&height=80&section=header&text=Robotics%20•%20Control%20Theory%20•%20JS%20&fontSize=22&fontAlignY=60&fontColor=ffffff&fontFamily=Fira+Code)
+![subtitle](https://capsule-render.vercel.app/api?type=rounded&color=1e3a8a&height=80&section=header&text=Robotics%20•%20Control%20Theory%20•%20JS%20&fontSize=22&fontAlignY=60&fontColor=ffffff&fontFamily=Fira+Code)
 
 ---
 
