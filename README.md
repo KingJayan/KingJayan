@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2563eb&height=250&section=header&text=Engineering%20Systems&fontSize=45&animation=fadeIn&fontColor=ffffff&fontFamily=JetBrains+Mono" />
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=3B82F6&center=true&vCenter=true&width=435&lines=Robotics+Engineer;Control+Theory+Enthusiast;Full-Stack+Developer;Lincoln-Douglas+Debater" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=3B82F6&center=true&vCenter=true&width=435&lines=Robotics+Engineer;Full-Stack+Developer;Lincoln-Douglas+Debater" alt="Typing SVG" />
 </p>
 
 ---
