@@ -38,10 +38,10 @@
 
 <p align="center">
   <a href="mailto:jayanp0202@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://skillicons.dev/icons?i=gmail&theme=dark" width="40" />
   </a>
   <a href="https://github.com/KingJayan">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://skillicons.dev/icons?i=github&theme=dark" width="40" />
   </a>
 </p>
 
