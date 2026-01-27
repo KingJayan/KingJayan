@@ -13,6 +13,9 @@
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=KingJayan&bg_color=0D1117&color=3B82F6&line=2563eb&point=FFFFFF&area=true&hide_border=true" width="100%" />
 </p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/KingJayan/KingJayan/output/github-snake-dark.svg" alt="Snake Animation" />
+</p>
 ---
 
 ### Projects & Learning
