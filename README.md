@@ -18,6 +18,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/KingJayan/KingJayan/output/github-snake-dark.svg" alt="Snake Animation" />
 </p>
+
 ---
 
 ### Projects & Learning
