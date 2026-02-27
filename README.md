@@ -7,7 +7,7 @@
 
 ---
 
-### Activity
+<!-- ### activity -->
 <p align="center">
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=KingJayan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" width="45%" />
   <img src="https://github-readme-stats-fast.vercel.app/api?username=KingJayan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" width="48%" />
@@ -23,16 +23,17 @@
 
 ---
 
-### Projects & Learning
+<!-- ### projects & learning -->
+<div align="center">
 | **What I Do** | **Currently Learning** |
 | :--- | :--- |
 | **FTC Robotics** - Team #18886 | Control Theory + Mechanisms 
 | **LD Debate** - WWHS Competitor | Competitive Java + Python |
 | **WIP** - AI Prompter, HAC Viewer | Backend + Web Tooling |
-
+</div>
 ---
 
-### Tech Stack
+<!-- ### tech stack -->
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=py,js,ts,nextjs,java,androidstudio,git,github,html,css&perline=5&theme=dark" />
