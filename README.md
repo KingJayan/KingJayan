@@ -25,12 +25,30 @@
 
 <!-- ### projects & learning -->
 <div align="center">
-| **What I Do** | **Currently Learning** |
-| :--- | :--- |
-| **FTC Robotics** - Team #18886 | Control Theory + Mechanisms 
-| **LD Debate** - WWHS Competitor | Competitive Java + Python |
-| **WIP** - AI Prompter, HAC Viewer | Backend + Web Tooling |
+  <table border="1">
+    <thead>
+      <tr>
+        <th><b>What I Do</b></th>
+        <th><b>Currently Learning</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>FTC Robotics</b> - Team #18886</td>
+        <td>Control Theory + Mechanisms</td>
+      </tr>
+      <tr>
+        <td><b>LD Debate</b> - WWHS Competitor</td>
+        <td>Competitive Java + Python</td>
+      </tr>
+      <tr>
+        <td><b>WIP</b> - AI Prompter, HAC Viewer</td>
+        <td>Backend + Web Tooling</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 ---
 
 <!-- ### tech stack -->
