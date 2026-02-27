@@ -38,8 +38,8 @@
         <td>Control Theory + Mechanisms</td>
       </tr>
       <tr>
-        <td><b>LD Debate</b> - WWHS Competitor</td>
-        <td>Competitive Java + Python</td>
+        <td><b>Efficient CS</b></td>
+        <td>Competitive Python</td>
       </tr>
       <tr>
         <td><b>WIP</b> - AI Prompter, HAC Viewer</td>
