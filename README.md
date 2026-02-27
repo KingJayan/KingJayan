@@ -26,9 +26,9 @@
 ### Projects & Learning
 | **What I Do** | **Currently Learning** |
 | :--- | :--- |
-| 🤖 **FTC Robotics** - Team #18886 | Control Theory + Mechanisms 
-| 🧠 **LD Debate** - WWHS Competitor | Competitive Java + Python |
-| ⚡ **WIP** - AI Prompter, HAC Viewer | Backend + Web Tooling |
+| **FTC Robotics** - Team #18886 | Control Theory + Mechanisms 
+| **LD Debate** - WWHS Competitor | Competitive Java + Python |
+| **WIP** - AI Prompter, HAC Viewer | Backend + Web Tooling |
 
 ---
 
