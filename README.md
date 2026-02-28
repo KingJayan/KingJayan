@@ -53,7 +53,6 @@ I build software that models real-world systems -- from differential swerve kine
 </p>
 -->
 
----
 
 <!-- curr focus -->
 
