@@ -17,26 +17,35 @@
 
 <!-- about section -->
 
-<div style="display: flex; align-items: flex-start; gap: 30px;">
+<table>
+<tr>
+<td width="180px" valign="top">
   <img 
     src="https://avatars.githubusercontent.com/u/177897368?v=4" 
     width="160px" 
     style="border-radius: 50%;" 
   />
-  <div>
-  <h2>About</h2>
-  <p>
-  Robotics systems and full stack dev focused on control systems and ReactJS tooling.
-  </p>
-  <p>
-  Austin, TX<br>
-  FTC Team #18886
-  </p>
-  <p>
-  I build software that models real-world systems — from differential swerve kinematics to web-based tools.
-  </p>
-  </div>
-</div>
+</td>
+
+<td valign="top">
+
+<h2>About</h2>
+
+Robotics systems and full stack dev focused on control systems and ReactJS tooling.
+
+<br><br>
+
+Austin, TX  
+<br>
+FTC Team #18886
+
+<br><br>
+
+I build software that models real-world systems -- from differential swerve in FTC to web-based tools.
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -66,21 +75,19 @@
 
 ## Currently Building
 
-- Differential swerve drivetrain
+- Space Invaders in Desmos
 - Advanced AI prompting tool
 - Backend architecture experiments
 
 ## Technical Focus
 
 **Control Systems**
-- PID + Feedforward  
 - Motion Profiling  
 - Kinematics  
-- State Machines  
 
 **Full Stack**
 - Next.js + TypeScript  
-- API Design  
+- Three.js + Vite  
 - Tooling & Internal Utilities  
 
 ---
@@ -114,13 +121,11 @@
 </div>
 -->
 
----
-
 <!-- stack-->
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,ts,nextjs,java,git,github&perline=6&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=py,js,ts,nextjs,java,vercel,vscode,git,github&perline=6&theme=dark" />
   </a>
 </p>
 
@@ -133,7 +138,6 @@
 </p>
 -->
 
----
 
 <!-- contact section -->
 
