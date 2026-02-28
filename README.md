@@ -24,7 +24,6 @@
   style="border-radius: 50%; margin-right: 30px; margin-top:5px; margin-bottom: 10px;"
 />
 
-
 ## About
 
 Robotics systems and full stack dev focused on control systems and ReactJS tooling.
@@ -35,6 +34,7 @@ FTC Team #18886
 I build software that models real-world systems -- from differential swerve in FTC to web-based tools.
 
 ---
+<div style="clear: both;"></div>
 
 <!--activity -->
 
