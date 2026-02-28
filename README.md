@@ -33,7 +33,7 @@ FTC Team #18886
 
 I build software that models real-world systems -- from differential swerve in FTC to web-based tools.
 
-<br clear="left"/>
+<div style="clear: both;"></div>
 
 ---
 
