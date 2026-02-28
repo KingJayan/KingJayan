@@ -16,16 +16,20 @@
 ---
 
 <!-- about section -->
-<img align="left" src="https://avatars.githubusercontent.com/u/177897368?v=4" width="150" style="border-radius: 50%;" />
-
-## About
-
-&nbsp;&nbsp;&nbsp;Robotics systems and full stack dev focused on control systems and ReactJS tooling.<br><br>
-&nbsp;&nbsp;&nbsp;**Austin, TX**<br>
-&nbsp;&nbsp;&nbsp;**FTC Team #18886**<br><br>
-&nbsp;&nbsp;&nbsp;I build software that models real-world systems -- from differential swerve in FTC to web-based tools.
-
-<br clear="all" />
+<table style="border: none;">
+  <tr style="border: none;">
+    <td width="180" align="center" style="border: none;">
+      <img src="https://avatars.githubusercontent.com/u/177897368?v=4" width="150" style="border-radius: 50%;" />
+    </td>
+    <td style="border: none;">
+      <h2>About</h2>
+      Robotics systems and full stack dev focused on control systems and ReactJS tooling.<br><br>
+      <b>Austin, TX</b><br>
+      <b>FTC Team #18886</b><br><br>
+      I build software that models real-world systems -- from differential swerve in FTC to web-based tools.
+    </td>
+  </tr>
+</table>
 
 ---
 
