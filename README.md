@@ -21,8 +21,9 @@
   src="https://avatars.githubusercontent.com/u/177897368?v=4" 
   width="150px" 
   align="left"
-  style="border-radius: 50%; margin-right: 30px; margin-top: 5px;" 
+  style="border-radius: 50%; margin-right: 30px; margin-top:5px; margin-bottom: 10px;"
 />
+
 
 ## About
 
@@ -32,8 +33,6 @@ Austin, TX
 FTC Team #18886  
 
 I build software that models real-world systems -- from differential swerve in FTC to web-based tools.
-
-<div style="clear: both;"></div>
 
 ---
 
