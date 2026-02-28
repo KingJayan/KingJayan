@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="javascript:void(0)">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2563eb&height=160&section=header&text=Jayan%20Patel&fontSize=42&animation=fadeIn&fontColor=ffffff&fontFamily=JetBrains+Mono" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2563eb&height=180&section=header&text=Jayan%20Patel&fontSize=42&animation=fadeIn&fontColor=ffffff&fontFamily=JetBrains+Mono" />
   </a>
 </p>
 
@@ -17,7 +17,9 @@
 
 <!-- about section -->
 
-<img align="right" width="170px" src="https://avatars.githubusercontent.com/u/177897368?v=4" />
+<div style="float: right; margin-left: 30px; margin-bottom: 10px;">
+  <img width="170px" src="https://avatars.githubusercontent.com/u/177897368?v=4" style="border-radius: 50%;" />
+</div>
 
 ## About
 
@@ -27,7 +29,7 @@ Austin, TX
 FTC Team #18886  
 
 I build software that models real-world systems -- from differential swerve kinematics to web-based tools.
-
+<div style="clear: both;"></div>
 ---
 
 <!--activity -->
