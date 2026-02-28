@@ -17,19 +17,27 @@
 
 <!-- about section -->
 
-<div style="float: right; margin-left: 30px; margin-bottom: 10px;">
-  <img width="170px" src="https://avatars.githubusercontent.com/u/177897368?v=4" style="border-radius: 50%;" />
+<div style="display: flex; align-items: flex-start; gap: 30px;">
+  <img 
+    src="https://avatars.githubusercontent.com/u/177897368?v=4" 
+    width="160px" 
+    style="border-radius: 50%;" 
+  />
+  <div>
+  <h2>About</h2>
+  <p>
+  Robotics systems and full stack dev focused on control systems and ReactJS tooling.
+  </p>
+  <p>
+  Austin, TX<br>
+  FTC Team #18886
+  </p>
+  <p>
+  I build software that models real-world systems — from differential swerve kinematics to web-based tools.
+  </p>
+  </div>
 </div>
 
-## About
-
-Robotics systems and full stack dev focused on control systems, and ReactJS tooling.
-
-Austin, TX  
-FTC Team #18886  
-
-I build software that models real-world systems -- from differential swerve kinematics to web-based tools.
-<div style="clear: both;"></div>
 ---
 
 <!--activity -->
