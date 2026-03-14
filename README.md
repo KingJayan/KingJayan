@@ -1,4 +1,4 @@
-# Jayan Patel
+# <kbd>Jayan Patel</kbd>
 
 <p align="left">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3B82F6&vCenter=true&lines=Robotics+Engineer;Full-Stack+Developer;Lincoln-Douglas+Debater" alt="Typing SVG" />
@@ -18,11 +18,13 @@ Robotics systems and full-stack dev focused on control systems and ReactJS tooli
 - <kbd>Control Systems:</kbd> Motion Profiling, Kinematics/Physics
 - <kbd>Full Stack:</kbd> Next.js + TypeScript, Three.js + Vite, Tooling & Internal Utilities
 
+```
 ```diff
 @@ What I'm Learning @@
 - Flutter/Dart
 + Pure pursuit algorithms
 + AI context engineering
+```
 ```
 ---
 
