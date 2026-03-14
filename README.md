@@ -1,4 +1,4 @@
-<h1><kbd>Jayan Patel</kbd></h1>
+# Jayan Patel
 
 <p align="left">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3B82F6&vCenter=true&lines=Robotics+Engineer;Full-Stack+Developer;Lincoln-Douglas+Debater" alt="Typing SVG" />
