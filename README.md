@@ -9,8 +9,9 @@ Robotics systems and full-stack dev focused on control systems and ReactJS tooli
 ---
 
 ### Currently Building
-- Space Invaders in Desmos
-- Advanced AI prompting tool
+- [Space Invaders in Desmos](https://www.desmos.com/calculator/nltd6i1fly)
+- [Advanced AI prompting tool](https://github.com/KingJayan/Instrux)
+- [P2P File Sharing System](https://github.com/KingJayan/Sendyy)
 - Backend architecture experiments
 
 ### Technical Focus
