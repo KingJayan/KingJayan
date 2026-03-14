@@ -4,7 +4,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3B82F6&vCenter=true&lines=Robotics+Engineer;Full-Stack+Developer;Lincoln-Douglas+Debater" alt="Typing SVG" />
 </p>
 
-Robotics systems and full-stack dev focused on control systems and ReactJS tooling. I build software that models real-world systems--from differential swerve in FTC (#18886) to web-based tools right here in Austin, TX.
+Robotics systems and full-stack dev focused on control systems and ReactJS tooling. I build software that models real-world systems--from high school robotics to web-based tools right here in Austin, TX.
 
 ---
 
@@ -14,7 +14,7 @@ Robotics systems and full-stack dev focused on control systems and ReactJS tooli
 - Backend architecture experiments
 
 ### Technical Focus
-- **Control Systems:** Motion Profiling, Kinematics
+- **Control Systems:** Motion Profiling, Kinematics/Physics
 - **Full Stack:** Next.js + TypeScript, Three.js + Vite, Tooling & Internal Utilities
 
 ---
