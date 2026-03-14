@@ -15,9 +15,15 @@ Robotics systems and full-stack dev focused on control systems and ReactJS tooli
 - Backend architecture experiments
 
 ### Technical Focus
-- **Control Systems:** Motion Profiling, Kinematics/Physics
-- **Full Stack:** Next.js + TypeScript, Three.js + Vite, Tooling & Internal Utilities
+- <kbd>Control Systems:</kbd> Motion Profiling, Kinematics/Physics
+- <kbd>Full Stack:</kbd> Next.js + TypeScript, Three.js + Vite, Tooling & Internal Utilities
 
+```diff
+@@ What I'm Learning @@
+- Flutter/Dart
++ Pure pursuit algorithms
++ AI context engineering
+```
 ---
 
 ### Stack & Activity
