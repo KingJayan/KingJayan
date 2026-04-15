@@ -4,19 +4,19 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3B82F6&vCenter=true&lines=robotics+engineer;full-stack+dev;lincoln-douglas+debater" alt="Typing SVG" />
 </p>
 
-robotics + full-stack dev focused on control systems and js frameworks. building from FTC robotics to web apps.
+robotics + full-stack dev. mostly control systems and js frameworks.
 
 ---
 
 ### building
-- [Space Invaders in Desmos](https://www.desmos.com/calculator/nltd6i1fly)
-- [Advanced AI prompting tool](https://github.com/KingJayan/Instrux)
-- [P2P File Sharing System](https://github.com/KingJayan/Sendyy)
-- Backend architecture experiments
+- space invaders in desmos
+- Instrux (ai prompting tool)
+- Sendyy (p2p file sharing)
+- backend architecture experiments
 
 ### focus
-- <kbd>control systems:</kbd> motion profiling, physics engines
-- <kbd>full-stack:</kbd> next.js, three.js, vite, sveltekit, tailwind + radix + shadcn
+- <kbd>control systems</kbd> motion profiling, physics
+- <kbd>full-stack</kbd> next.js, three.js, sveltekit, tailwind + radix + shadcn
 
 ---
 
