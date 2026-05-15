@@ -4,13 +4,14 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3B82F6&vCenter=true&lines=robotics+engineer;full-stack+dev;lincoln-douglas+debater" alt="Typing SVG" />
 </p>
 
-robotics + full-stack dev. mostly control systems and js frameworks.
+robotics + full-stack dev. mostly random projects and js frameworks.
 
 ---
 
 ### building
 - space invaders in desmos
-- Instrux (ai prompting tool)
+- desmos dsl + ide
+- hac grade viewer + offline
 - Sendyy (p2p file sharing)
 - backend architecture experiments
 
