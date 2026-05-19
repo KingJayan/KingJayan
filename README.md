@@ -1,7 +1,7 @@
 # jayan patel
 
 <p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3B82F6&vCenter=true&lines=robotics+engineer;full-stack+dev;lincoln-douglas+debater" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3B82F6&vCenter=true&lines=robotics+engineer;high-school+student;full-stack+dev;lincoln-douglas+debater" alt="Typing SVG" />
 </p>
 
 robotics + full-stack dev. mostly random projects and js frameworks.
