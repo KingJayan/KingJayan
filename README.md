@@ -25,7 +25,7 @@ robotics + full-stack dev. mostly random projects and js frameworks.
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,js,ts,nextjs,svelte,tailwind,supabase,vercel,java,vscode,git,github&perline=10&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=py,js,ts,nextjs,svelte,tailwind,supabase,vercel,vscode,cloudflare,git,github&perline=10&theme=dark" />
   </a>
 </p>
 
