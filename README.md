@@ -15,6 +15,6 @@
 </p>
 
 <p align="left">
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=KingJayan&layout=compact&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=C9D1D9" width="45%" />
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=KingJayan&show_icons=true&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=C9D1D9" width="48%" />
+  <img src="https://github-readme-stats-fast-wheat.vercel.app/api/top-langs/?username=KingJayan&layout=compact&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=C9D1D9" width="45%" />
+  <img src="https://github-readme-stats-fast-wheat.vercel.app/api?username=KingJayan&show_icons=true&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=C9D1D9" width="48%" />
 </p>
