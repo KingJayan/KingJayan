@@ -6,7 +6,7 @@
 
 robotics, full-stack, and random electrical engineering projects.
 
-##
+<br>
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -15,3 +15,24 @@ robotics, full-stack, and random electrical engineering projects.
   &emsp;&emsp;&emsp;
   <img src="https://github-readme-stats-fast-wheat.vercel.app/api?username=KingJayan&show_icons=true&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=C9D1D9" valign="middle" />
 </p>
+
+<br>
+
+<details>
+<summary><b>current projects</b></summary>
+<br>
+
+- **`gradient`** &nbsp; offline-friendly iOS client for HAC grades <!-- - **`browserd`** &nbsp; native daemon orchestrating portable browser environments via TOML -->
+- **`secant`** &nbsp; math-focused DSL compiling directly to Desmos expressions
+- **`flagon`** &nbsp; executing unmodified desktop Java/LWJGL in the modern browser
+</details>
+
+<br>
+
+<details>
+<summary><b>hardware & embedded</b></summary>
+<br>
+
+<!-- - **`prosthetic hand`** &nbsp; multi-servo arduino system with emg control -->
+nothing right now
+</details>
