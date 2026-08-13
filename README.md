@@ -25,7 +25,8 @@ robotics, full-stack, and random electrical engineering projects.
 - **`gradient`** &nbsp; offline-friendly iOS client for HAC grades <!-- - **`browserd`** &nbsp; native daemon orchestrating portable browser environments via TOML -->
 - **`secant`** &nbsp; math-focused DSL compiling directly to Desmos expressions
 - **`flagon`** &nbsp; executing unmodified desktop Java/LWJGL in the modern browser
-- **`sortd`** &nbsp; policy-based automatic file sorting system 
+- **`sortd`** &nbsp; policy-based automatic file sorting system
+- **`OUTPOST`** &nbsp; singleplayer FPS adventure in a infinite world
 </details>
 
 <br>
