@@ -1,10 +1,10 @@
 ## jayan patel
 
 <p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=350&duration=2500&color=3B82F6&vCenter=true&lines=robotics+engineer;high-school+student;full-stack+dev;lincoln-douglas+debater" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=350&duration=2500&color=3B82F6&vCenter=true&lines=Robotics+Engineer;Highschool+Student;Full-Stack+Dev;Lincoln-Douglas+Debater" alt="Typing SVG" />
 </p>
 
-robotics, full-stack, and random electrical engineering projects.
+Robotics, Full-Stack, and random electrical engineering projects.
 
 <br>
 
@@ -21,22 +21,22 @@ robotics, full-stack, and random electrical engineering projects.
 <br>
 
 <details>
-<summary><b>current projects</b></summary>
+<summary><b>Current Projects</b></summary>
 <br>
 
-- **`gradient`** &nbsp; offline-friendly iOS client for HAC grades <!-- - **`browserd`** &nbsp; native daemon orchestrating portable browser environments via TOML -->
-- **`desmos-ide`** &nbsp; math-focused DSL compiling directly to Desmos expressions
-- **`flagon`** &nbsp; executing unmodified desktop Java/LWJGL in the modern browser
-- **`sortd`** &nbsp; policy-based automatic file sorting system
-- **`OUTPOST`** &nbsp; singleplayer FPS adventure in a infinite world
+- **`gradient`** &nbsp; – &nbsp; an offline-friendly iOS client for HAC grades <!-- - **`browserd`** &nbsp; native daemon orchestrating portable browser environments via TOML -->
+- **`desmos-ide`** &nbsp; – &nbsp; a math-focused DSL compiling directly to Desmos expressions
+- **`flagon`** &nbsp; – &nbsp; tool for executing unmodified desktop Java/LWJGL3 in the modern browser
+- **`sortd`** &nbsp; – &nbsp; policy-based automatic file sorting system
+- **`OUTPOST`** &nbsp; – &nbsp; singleplayer FPS adventure game in a infinite world
 </details>
 
 <br>
 
 <details>
-<summary><b>hardware & embedded</b></summary>
+<summary><b>Hardware & Embedded Systems</b></summary>
 <br>
 
 <!-- - **`prosthetic hand`** &nbsp; multi-servo arduino system with emg control -->
-nothing right now
+Nothing right now
 </details>
