@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" width="100%" height="100%">
+  <defs>
+    <radialGradient id="space-glow" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#141724" stop-opacity="0.4" />
+      <stop offset="60%" stop-color="#090b10" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#07080b" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="card-surface" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141722" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#090b10" stop-opacity="0.8" />
+    </linearGradient>
+
+    <linearGradient id="edge-highlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.3" />
+      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+
+    <style>
+      @keyframes p-deep { from { transform: translateX(0); } to { transform: translateX(-880px); } }
+      @keyframes p-mid  { from { transform: translateX(0); } to { transform: translateX(-880px); } }
+      @keyframes p-fore { from { transform: translateX(0); } to { transform: translateX(-880px); } }
+
+      .deep { animation: p-deep 90s linear infinite; }
+      .mid  { animation: p-mid 45s linear infinite; }
+      .fore { animation: p-fore 20s linear infinite; }
+
+      .mono {
+        font-family: ui-monospace, SFMono-Regular, "Geist Mono", Menlo, Consolas, monospace;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#07080b" />
+  <rect width="100%" height="100%" fill="url(#space-glow)" />
+
+  <!-- Stars: Deep -->
+  <g class="deep" fill="#ffffff">
+    <circle cx="40" cy="30" r="0.6" opacity="0.25" />
+    <circle cx="140" cy="180" r="0.7" opacity="0.2" />
+    <circle cx="260" cy="70" r="0.5" opacity="0.35" />
+    <circle cx="410" cy="240" r="0.7" opacity="0.25" />
+    <circle cx="580" cy="50" r="0.6" opacity="0.3" />
+    <circle cx="720" cy="200" r="0.8" opacity="0.2" />
+    <circle cx="830" cy="80" r="0.5" opacity="0.3" />
+    <!-- Loop tile -->
+    <circle cx="920" cy="30" r="0.6" opacity="0.25" />
+    <circle cx="1020" cy="180" r="0.7" opacity="0.2" />
+    <circle cx="1140" cy="70" r="0.5" opacity="0.35" />
+    <circle cx="1290" cy="240" r="0.7" opacity="0.25" />
+    <circle cx="1460" cy="50" r="0.6" opacity="0.3" />
+    <circle cx="1600" cy="200" r="0.8" opacity="0.2" />
+    <circle cx="1710" cy="80" r="0.5" opacity="0.3" />
+  </g>
+
+  <!-- Stars: Mid -->
+  <g class="mid" fill="#ffffff">
+    <circle cx="90" cy="120" r="1.1" opacity="0.4" />
+    <circle cx="320" cy="220" r="1.0" opacity="0.35" />
+    <circle cx="510" cy="90" r="1.2" opacity="0.45" />
+    <circle cx="760" cy="250" r="1.0" opacity="0.35" />
+    <!-- Loop tile -->
+    <circle cx="970" cy="120" r="1.1" opacity="0.4" />
+    <circle cx="1200" cy="220" r="1.0" opacity="0.35" />
+    <circle cx="1390" cy="90" r="1.2" opacity="0.45" />
+    <circle cx="1640" cy="250" r="1.0" opacity="0.35" />
+  </g>
+
+  <!-- Stars: Fore -->
+  <g class="fore" fill="#ffffff">
+    <circle cx="180" cy="40" r="1.5" opacity="0.7" />
+    <circle cx="620" cy="160" r="1.6" opacity="0.65" />
+    <!-- Loop tile -->
+    <circle cx="1060" cy="40" r="1.5" opacity="0.7" />
+    <circle cx="1500" cy="160" r="1.6" opacity="0.65" />
+  </g>
+
+  <!-- Header Text -->
+  <g transform="translate(48, 42)">
+    <text x="0" y="0" fill="#f4f4f5" font-size="15" font-weight="600" letter-spacing="0.5" class="mono">Jayan Patel</text>
+    <text x="784" y="0" fill="#71717a" font-size="12" text-anchor="end" class="mono">Austin, TX</text>
+    <line x1="0" y1="16" x2="784" y2="16" stroke="#1c1f28" stroke-width="1" />
+  </g>
+
+  <!-- 3 Parallelogram Cards -->
+  <!-- Card 1: Systems -->
+  <g transform="translate(48, 86)">
+    <rect transform="skewX(-8)" x="12" y="0" width="240" height="140" rx="8" 
+          fill="url(#card-surface)" stroke="#222530" stroke-width="1.2" />
+    <line x1="2" y1="1" x2="242" y2="1" stroke="url(#edge-highlight)" stroke-width="1" />
+    <text x="28" y="34" fill="#f4f4f5" font-size="13" font-weight="600" class="mono">Systems &amp; Web</text>
+    <line x1="28" y1="46" x2="216" y2="46" stroke="#1c1f28" stroke-width="1" />
+    <text x="28" y="70" fill="#a1a1aa" font-size="11" class="mono">Desktop Java to WebGL</text>
+    <text x="28" y="92" fill="#a1a1aa" font-size="11" class="mono">Offline-first mobile apps</text>
+    <text x="28" y="114" fill="#71717a" font-size="10.5" class="mono">Java, TS, WebGL, React Native</text>
+  </g>
+
+  <!-- Card 2: Compilers -->
+  <g transform="translate(320, 86)">
+    <rect transform="skewX(-8)" x="12" y="0" width="240" height="140" rx="8" 
+          fill="url(#card-surface)" stroke="#222530" stroke-width="1.2" />
+    <line x1="2" y1="1" x2="242" y2="1" stroke="url(#edge-highlight)" stroke-width="1" />
+    <text x="28" y="34" fill="#f4f4f5" font-size="13" font-weight="600" class="mono">Compilers &amp; Math</text>
+    <line x1="28" y1="46" x2="216" y2="46" stroke="#1c1f28" stroke-width="1" />
+    <text x="28" y="70" fill="#a1a1aa" font-size="11" class="mono">Custom language parsers</text>
+    <text x="28" y="92" fill="#a1a1aa" font-size="11" class="mono">Compiling code to Desmos</text>
+    <text x="28" y="114" fill="#71717a" font-size="10.5" class="mono">AST transforms, grammars</text>
+  </g>
+
+  <!-- Card 3: Robotics -->
+  <g transform="translate(592, 86)">
+    <rect transform="skewX(-8)" x="12" y="0" width="240" height="140" rx="8" 
+          fill="url(#card-surface)" stroke="#222530" stroke-width="1.2" />
+    <line x1="2" y1="1" x2="242" y2="1" stroke="url(#edge-highlight)" stroke-width="1" />
+    <text x="28" y="34" fill="#f4f4f5" font-size="13" font-weight="600" class="mono">Robotics</text>
+    <line x1="28" y1="46" x2="216" y2="46" stroke="#1c1f28" stroke-width="1" />
+    <text x="28" y="70" fill="#a1a1aa" font-size="11" class="mono">FTC team #17113</text>
+    <text x="28" y="92" fill="#a1a1aa" font-size="11" class="mono">Drivetrain control &amp; motion</text>
+    <text x="28" y="114" fill="#71717a" font-size="10.5" class="mono">Kinematics, slew limiters</text>
+  </g>
+</svg>
