@@ -1,4 +1,4 @@
-## jayan patel
+## 👋 Hi, I'm Jayan Patel
 
 <p align="left">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=350&duration=2500&color=3B82F6&vCenter=true&lines=Robotics+Engineer;Highschool+Student;Full-Stack+Dev;Lincoln-Douglas+Debater" alt="Typing SVG" />
