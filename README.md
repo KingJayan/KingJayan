@@ -2,7 +2,8 @@
   <img src="./hero.svg" width="100%" alt="Jayan Patel — systems, compilers, robotics" />
 </div>
 
-<img src="./assets/h-projects.svg" width="115%" alt="~/projects" />
+
+&nbsp;&nbsp;<img src="./assets/h-projects.svg" width="115%" alt="~/projects" />
 
 - [**flagon**](https://github.com/KingJayan/flagon) &nbsp;&nbsp;`webgl` – unmodified java in the browser
 - [**desmos-ide**](https://github.com/KingJayan/desmos-ide) &nbsp;&nbsp;`math` – a dsl + ide that compiles to desmos expressions
@@ -10,9 +11,10 @@
 - [**sortd**](https://github.com/KingJayan/sortd) &nbsp;&nbsp;`daemon` – sorts your files by custom path rules, runs in the background
 - [**OUTPOST**](https://github.com/KingJayan/OUTPOST) &nbsp;&nbsp;`game` – singleplayer 3D fps in an infinite procedural world
 
-<img src="./assets/h-stack.svg" width="115%" alt="~/stack" />
+&nbsp;&nbsp;<img src="./assets/h-stack.svg" width="115%" alt="~/stack" />
 
 <p>
+&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/python/a1a1aa" height="25" alt="python" title="python" />&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/openjdk/a1a1aa" height="25" alt="java" title="java" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/react/a1a1aa" height="25" alt="react native" title="react native" />&nbsp;&nbsp;&nbsp;
@@ -26,6 +28,7 @@
 
 </p>
 
-<img src="./assets/h-contact.svg" width="115%" alt="~/contact" />
+&nbsp;&nbsp;<img src="./assets/h-contact.svg" width="115%" alt="~/contact" />
 
-[portfolio](https://jayanpatel.vercel.app) &nbsp;·&nbsp; [email](mailto:jayanp0202@gmail.com)
+
+&nbsp;&nbsp;[portfolio](https://jayanpatel.vercel.app) &nbsp;·&nbsp; [email](mailto:jayanp0202@gmail.com)
