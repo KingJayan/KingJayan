@@ -9,17 +9,17 @@
       <stop offset="100%" stop-color="#07080b" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Nebula haze -->
+    <!-- haze -->
     <radialGradient id="nebula-violet" cx="88%" cy="8%" r="45%">
-      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.22" />
-      <stop offset="100%" stop-color="#1e3a8a" stop-opacity="0" />
+      <stop offset="0%" stop-color="#182d68" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#182d68" stop-opacity="0" />
     </radialGradient>
     <radialGradient id="nebula-blue" cx="6%" cy="100%" r="50%">
       <stop offset="0%" stop-color="#172554" stop-opacity="0.28" />
       <stop offset="100%" stop-color="#172554" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Fades edges toward GitHub's dark canvas so the banner doesn't read as a pasted box -->
+    <!-- fade edges -->
     <radialGradient id="vignette" cx="50%" cy="50%" r="75%">
       <stop offset="70%" stop-color="#0d1117" stop-opacity="0" />
       <stop offset="100%" stop-color="#0d1117" stop-opacity="0.6" />
@@ -82,41 +82,41 @@
   </defs>
 
   <g clip-path="url(#frame)">
-  <!-- Background -->
+  <!-- bg -->
   <rect width="880" height="270" fill="#07080b" />
   <rect width="880" height="270" fill="url(#space-glow)" />
   <rect width="880" height="270" fill="url(#nebula-violet)" />
   <rect width="880" height="270" fill="url(#nebula-blue)" />
 
-  <!-- Stars: Deep -->
+  <!-- stars bg -->
   <g class="deep" fill="#ffffff">
     <circle cx="331" cy="83" r="0.6" opacity="0.16"/><circle cx="840" cy="54" r="0.5" opacity="0.16"/><circle cx="519" cy="115" r="0.4" opacity="0.24"/><circle cx="71" cy="129" r="0.4" opacity="0.23"/><circle cx="846" cy="69" r="0.8" opacity="0.28"/><circle cx="596" cy="37" r="0.6" opacity="0.23"/><circle cx="226" cy="29" r="0.6" opacity="0.18"/><circle cx="429" cy="79" r="0.6" opacity="0.26"/><circle cx="573" cy="98" r="0.4" opacity="0.26"/><circle cx="192" cy="196" r="0.4" opacity="0.29"/><circle cx="577" cy="36" r="0.6" opacity="0.25"/><circle cx="544" cy="224" r="0.7" opacity="0.24"/><circle cx="464" cy="191" r="0.5" opacity="0.31"/><circle cx="715" cy="130" r="0.4" opacity="0.21"/><circle cx="506" cy="181" r="0.7" opacity="0.21"/><circle cx="74" cy="66" r="0.6" opacity="0.18"/><circle cx="350" cy="83" r="0.8" opacity="0.23"/><circle cx="684" cy="45" r="0.7" opacity="0.26"/><circle cx="837" cy="166" r="0.5" opacity="0.22"/><circle cx="508" cy="239" r="0.4" opacity="0.17"/><circle cx="276" cy="248" r="0.7" opacity="0.16"/><circle cx="748" cy="164" r="0.7" opacity="0.35"/><circle cx="841" cy="234" r="0.5" opacity="0.23"/><circle cx="684" cy="183" r="0.4" opacity="0.24"/><circle cx="172" cy="65" r="0.6" opacity="0.19"/><circle cx="294" cy="72" r="0.7" opacity="0.23"/>
-    <!-- Loop tile -->
+
     <circle cx="1211" cy="83" r="0.6" opacity="0.16"/><circle cx="1720" cy="54" r="0.5" opacity="0.16"/><circle cx="1399" cy="115" r="0.4" opacity="0.24"/><circle cx="951" cy="129" r="0.4" opacity="0.23"/><circle cx="1726" cy="69" r="0.8" opacity="0.28"/><circle cx="1476" cy="37" r="0.6" opacity="0.23"/><circle cx="1106" cy="29" r="0.6" opacity="0.18"/><circle cx="1309" cy="79" r="0.6" opacity="0.26"/><circle cx="1453" cy="98" r="0.4" opacity="0.26"/><circle cx="1072" cy="196" r="0.4" opacity="0.29"/><circle cx="1457" cy="36" r="0.6" opacity="0.25"/><circle cx="1424" cy="224" r="0.7" opacity="0.24"/><circle cx="1344" cy="191" r="0.5" opacity="0.31"/><circle cx="1595" cy="130" r="0.4" opacity="0.21"/><circle cx="1386" cy="181" r="0.7" opacity="0.21"/><circle cx="954" cy="66" r="0.6" opacity="0.18"/><circle cx="1230" cy="83" r="0.8" opacity="0.23"/><circle cx="1564" cy="45" r="0.7" opacity="0.26"/><circle cx="1717" cy="166" r="0.5" opacity="0.22"/><circle cx="1388" cy="239" r="0.4" opacity="0.17"/><circle cx="1156" cy="248" r="0.7" opacity="0.16"/><circle cx="1628" cy="164" r="0.7" opacity="0.35"/><circle cx="1721" cy="234" r="0.5" opacity="0.23"/><circle cx="1564" cy="183" r="0.4" opacity="0.24"/><circle cx="1052" cy="65" r="0.6" opacity="0.19"/><circle cx="1174" cy="72" r="0.7" opacity="0.23"/>
   </g>
 
-  <!-- Stars: Mid -->
+  <!-- stars mg -->
   <g class="mid" fill="#ffffff">
     <circle cx="508" cy="47" r="0.9" opacity="0.38"/><circle cx="284" cy="76" r="1.1" opacity="0.47"/><circle cx="285" cy="218" r="1.2" opacity="0.44"/><circle cx="389" cy="124" r="0.9" opacity="0.34"/><circle cx="237" cy="125" r="0.9" opacity="0.47"/><circle cx="186" cy="140" r="1.0" opacity="0.33"/><circle cx="547" cy="195" r="1.1" opacity="0.36"/><circle cx="128" cy="33" r="1.0" opacity="0.47"/><circle cx="696" cy="206" r="1.0" opacity="0.38"/><circle cx="493" cy="211" r="0.9" opacity="0.31"/><circle cx="213" cy="231" r="0.9" opacity="0.37"/><circle cx="53" cy="58" r="0.9" opacity="0.33"/>
-    <!-- Loop tile -->
+
     <circle cx="1388" cy="47" r="0.9" opacity="0.38"/><circle cx="1164" cy="76" r="1.1" opacity="0.47"/><circle cx="1165" cy="218" r="1.2" opacity="0.44"/><circle cx="1269" cy="124" r="0.9" opacity="0.34"/><circle cx="1117" cy="125" r="0.9" opacity="0.47"/><circle cx="1066" cy="140" r="1.0" opacity="0.33"/><circle cx="1427" cy="195" r="1.1" opacity="0.36"/><circle cx="1008" cy="33" r="1.0" opacity="0.47"/><circle cx="1576" cy="206" r="1.0" opacity="0.38"/><circle cx="1373" cy="211" r="0.9" opacity="0.31"/><circle cx="1093" cy="231" r="0.9" opacity="0.37"/><circle cx="933" cy="58" r="0.9" opacity="0.33"/>
   </g>
 
-  <!-- Stars: Fore (some twinkle) -->
+  <!-- stars fg -->
   <g class="fore" fill="#ffffff">
     <circle cx="103" cy="192" r="1.5" opacity="0.6"/><circle class="tw" cx="300" cy="58" r="1.6" opacity="0.75"/><circle cx="470" cy="252" r="1.5" opacity="0.6"/><circle class="tw2" cx="640" cy="84" r="1.5" opacity="0.7"/><circle cx="780" cy="240" r="1.4" opacity="0.6"/><circle class="tw" cx="862" cy="28" r="1.6" opacity="0.7"/>
-    <!-- Loop tile -->
+
     <circle cx="983" cy="192" r="1.5" opacity="0.6"/><circle class="tw" cx="1180" cy="58" r="1.6" opacity="0.75"/><circle cx="1350" cy="252" r="1.5" opacity="0.6"/><circle class="tw2" cx="1520" cy="84" r="1.5" opacity="0.7"/><circle cx="1660" cy="240" r="1.4" opacity="0.6"/><circle class="tw" cx="1742" cy="28" r="1.6" opacity="0.7"/>
   </g>
 
-  <!-- Shooting star -->
+  <!-- shooting star -->
   <g transform="translate(560 6) rotate(158)">
     <line class="shoot" x1="0" y1="0" x2="80" y2="0" stroke="url(#shoot-grad)" stroke-width="1.2" stroke-linecap="round" />
   </g>
 
   <rect width="880" height="270" fill="url(#vignette)" />
 
-  <!-- Header -->
+  <!-- header -->
   <g transform="translate(48, 40)">
     <text x="0" y="0" fill="#f4f4f5" font-size="17" font-weight="700" letter-spacing="0.5" class="mono">Jayan Patel</text>
     <text x="0" y="20" fill="#71717a" font-size="11.5" class="mono">building tools that run where they shouldn't</text>
@@ -125,11 +125,9 @@
   </g>
 
   <!--
-    Parallelogram cards. skewX(-8) shifts the bottom edge left by 120*tan(8°) ≈ 17px,
-    so cards start at x=64 (bottom-left lands on the 48 margin) and card 3's top-right
-    lands on 832. Text x steps left with each line to follow the slant.
+    pll cards. skewX(-8) slant
   -->
-  <!-- Card 1: Systems -->
+  <!-- c1 -->
   <g transform="translate(64, 96)">
     <g transform="skewX(-8)">
       <rect x="0" y="0" width="240" height="120" rx="8" fill="url(#card-surface)" stroke="#222530" stroke-width="1.2" />
@@ -142,7 +140,7 @@
     <text x="7.5" y="106" fill="#67e8f9" fill-opacity="0.7" font-size="11" class="mono">↳ flagon · gradient · sortd</text>
   </g>
 
-  <!-- Card 2: Compilers -->
+  <!-- c2 -->
   <g transform="translate(328, 96)">
     <g transform="skewX(-8)">
       <rect x="0" y="0" width="240" height="120" rx="8" fill="url(#card-surface)" stroke="#222530" stroke-width="1.2" />
@@ -155,7 +153,7 @@
     <text x="7.5" y="106" fill="#a78bfa" fill-opacity="0.8" font-size="11" class="mono">↳ desmos-ide</text>
   </g>
 
-  <!-- Card 3: Robotics -->
+  <!-- c3 -->
   <g transform="translate(592, 96)">
     <g transform="skewX(-8)">
       <rect x="0" y="0" width="240" height="120" rx="8" fill="url(#card-surface)" stroke="#222530" stroke-width="1.2" />
@@ -168,18 +166,18 @@
     <text x="7.5" y="106" fill="#fbbf24" fill-opacity="0.7" font-size="11" class="mono">↳ FTC team #17113</text>
   </g>
 
-  <!-- Status line -->
+  <!-- status line -->
   <g transform="translate(48, 246)">
     <text x="0" y="0" font-size="11.5" class="mono">
       <tspan fill="#4ade80">&gt;</tspan>
       <tspan fill="#71717a"> currently</tspan>
       <tspan fill="#d4d4d8"> flagon</tspan>
-      <tspan fill="#71717a"> — running LWJGL in the browser</tspan>
+      <tspan fill="#71717a"> — LWJGL in the browser</tspan>
     </text>
     <rect class="cursor" x="345" y="-10" width="7" height="12" fill="#a1a1aa" />
   </g>
   </g>
 
-  <!-- Frame outline -->
+  <!-- outline -->
   <rect x="0.5" y="0.5" width="879" height="269" rx="14" fill="none" stroke="#1c2130" stroke-width="1" />
 </svg>

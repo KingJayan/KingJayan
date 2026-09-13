@@ -2,15 +2,15 @@
   <img src="./hero.svg" width="100%" alt="Jayan Patel — systems, compilers, robotics" />
 </div>
 
-<img src="./assets/h-projects.svg" width="100%" alt="~/projects" />
+<img src="./assets/h-projects.svg" width="115%" alt="~/projects" />
 
-- [**flagon**](https://github.com/KingJayan/flagon) &nbsp;`webgl` — unmodified java / lwjgl games, running in the browser
-- [**desmos-ide**](https://github.com/KingJayan/desmos-ide) &nbsp;`compiler` — a dsl + editor that compiles to desmos expressions
-- [**gradient**](https://github.com/KingJayan/gradient) &nbsp;`ios` — offline-first grades viewer for home access center
-- [**sortd**](https://github.com/KingJayan/sortd) &nbsp;`daemon` — sorts your files by custom path rules, in the background
-- [**OUTPOST**](https://github.com/KingJayan/OUTPOST) &nbsp;`game` — singleplayer voxel fps in an infinite procedural world
+- [**flagon**](https://github.com/KingJayan/flagon) &nbsp;&nbsp;`webgl` – unmodified java in the browser
+- [**desmos-ide**](https://github.com/KingJayan/desmos-ide) &nbsp;&nbsp;`math` – a dsl + ide that compiles to desmos expressions
+- [**gradient**](https://github.com/KingJayan/gradient) &nbsp;&nbsp;`ios` – offline-first grades viewer for home access center
+- [**sortd**](https://github.com/KingJayan/sortd) &nbsp;&nbsp;`daemon` – sorts your files by custom path rules, runs in the background
+- [**OUTPOST**](https://github.com/KingJayan/OUTPOST) &nbsp;&nbsp;`game` – singleplayer 3D fps in an infinite procedural world
 
-<img src="./assets/h-stack.svg" width="100%" alt="~/stack" />
+<img src="./assets/h-stack.svg" width="115%" alt="~/stack" />
 
 <p>
   <img src="https://cdn.simpleicons.org/openjdk/a1a1aa" height="22" alt="java" title="java" />&nbsp;&nbsp;&nbsp;
@@ -22,6 +22,6 @@
   <img src="https://cdn.simpleicons.org/cloudflareworkers/a1a1aa" height="22" alt="cloudflare workers" title="cloudflare workers" />
 </p>
 
-<img src="./assets/h-contact.svg" width="100%" alt="~/contact" />
+<img src="./assets/h-contact.svg" width="115%" alt="~/contact" />
 
 [portfolio](https://jayanpatel.vercel.app) &nbsp;·&nbsp; [email](mailto:jayanp0202@gmail.com)
