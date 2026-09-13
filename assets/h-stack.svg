@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="34" viewBox="0 0 880 34">
+  <defs>
+    <linearGradient id="rule" x1="0" x2="1">
+      <stop offset="0" stop-color="#1c2130" />
+      <stop offset="1" stop-color="#1c2130" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+    <text x="0" y="20"><tspan fill="#22c55e">&gt;</tspan><tspan fill="#52525b" dx="8">~/</tspan><tspan fill="#e4e4e7" font-weight="700">stack</tspan></text>
+  </g>
+  <rect x="97" y="15" width="783" height="1" fill="url(#rule)" />
+</svg>

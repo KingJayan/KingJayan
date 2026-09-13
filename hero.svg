@@ -11,12 +11,12 @@
 
     <!-- Nebula haze -->
     <radialGradient id="nebula-violet" cx="88%" cy="8%" r="45%">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.16" />
-      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0" />
+      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#1e3a8a" stop-opacity="0" />
     </radialGradient>
     <radialGradient id="nebula-blue" cx="6%" cy="100%" r="50%">
-      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.10" />
-      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0" />
+      <stop offset="0%" stop-color="#172554" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#172554" stop-opacity="0" />
     </radialGradient>
 
     <!-- Fades edges toward GitHub's dark canvas so the banner doesn't read as a pasted box -->

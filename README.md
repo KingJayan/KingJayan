@@ -2,7 +2,7 @@
   <img src="./hero.svg" width="100%" alt="Jayan Patel — systems, compilers, robotics" />
 </div>
 
-### ~/projects
+<img src="./assets/h-projects.svg" width="100%" alt="~/projects" />
 
 - [**flagon**](https://github.com/KingJayan/flagon) &nbsp;`webgl` — unmodified java / lwjgl games, running in the browser
 - [**desmos-ide**](https://github.com/KingJayan/desmos-ide) &nbsp;`compiler` — a dsl + editor that compiles to desmos expressions
@@ -10,7 +10,7 @@
 - [**sortd**](https://github.com/KingJayan/sortd) &nbsp;`daemon` — sorts your files by custom path rules, in the background
 - [**OUTPOST**](https://github.com/KingJayan/OUTPOST) &nbsp;`game` — singleplayer voxel fps in an infinite procedural world
 
-### ~/stack
+<img src="./assets/h-stack.svg" width="100%" alt="~/stack" />
 
 <p>
   <img src="https://cdn.simpleicons.org/openjdk/a1a1aa" height="22" alt="java" title="java" />&nbsp;&nbsp;&nbsp;
@@ -22,6 +22,6 @@
   <img src="https://cdn.simpleicons.org/cloudflareworkers/a1a1aa" height="22" alt="cloudflare workers" title="cloudflare workers" />
 </p>
 
-### ~/contact
+<img src="./assets/h-contact.svg" width="100%" alt="~/contact" />
 
 [portfolio](https://jayanpatel.vercel.app) &nbsp;·&nbsp; [email](mailto:jayanp0202@gmail.com)
