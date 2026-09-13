@@ -13,13 +13,18 @@
 <img src="./assets/h-stack.svg" width="115%" alt="~/stack" />
 
 <p>
-  <img src="https://cdn.simpleicons.org/openjdk/a1a1aa" height="22" alt="java" title="java" />&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/typescript/a1a1aa" height="22" alt="typescript" title="typescript" />&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/python/a1a1aa" height="22" alt="python" title="python" />&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/react/a1a1aa" height="22" alt="react native" title="react native" />&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/svelte/a1a1aa" height="22" alt="sveltekit" title="sveltekit" />&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/webgl/a1a1aa" height="22" alt="webgl" title="webgl" />&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/cloudflareworkers/a1a1aa" height="22" alt="cloudflare workers" title="cloudflare workers" />
+  <img src="https://cdn.simpleicons.org/python/a1a1aa" height="25" alt="python" title="python" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/openjdk/a1a1aa" height="25" alt="java" title="java" />&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/react/a1a1aa" height="25" alt="react native" title="react native" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/typescript/a1a1aa" height="25" alt="typescript" title="typescript" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/svelte/a1a1aa" height="25" alt="sveltekit" title="sveltekit" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/bun/a1a1aa" height="25" alt="bun" title="bun" />&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/docker/a1a1aa" height="25" alt="docker" title="docker" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/cloudflare/a1a1aa" height="25" alt="cloudflare workers" title="cloudflare workers" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/vercel/a1a1aa" height="25" alt="vercel" title="vercel" />
+
 </p>
 
 <img src="./assets/h-contact.svg" width="115%" alt="~/contact" />
