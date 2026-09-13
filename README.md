@@ -5,11 +5,11 @@
 
 &nbsp;&nbsp;<img src="./assets/h-projects.svg" width="115%" alt="~/projects" />
 
-- [**flagon**](https://github.com/KingJayan/flagon) &nbsp;&nbsp;`webgl` – unmodified java in the browser
-- [**desmos-ide**](https://github.com/KingJayan/desmos-ide) &nbsp;&nbsp;`math` – a dsl + ide that compiles to desmos expressions
-- [**gradient**](https://github.com/KingJayan/gradient) &nbsp;&nbsp;`ios` – offline-first grades viewer for home access center
-- [**sortd**](https://github.com/KingJayan/sortd) &nbsp;&nbsp;`daemon` – sorts your files by custom path rules, runs in the background
-- [**OUTPOST**](https://github.com/KingJayan/OUTPOST) &nbsp;&nbsp;`game` – singleplayer 3D fps in an infinite procedural world
+- [**flagon**](https://github.com/KingJayan/flagon) – `webgl` – unmodified java in the browser
+- [**desmos-ide**](https://github.com/KingJayan/desmos-ide) – `math` – a dsl + ide that compiles to desmos expressions
+- [**gradient**](https://github.com/KingJayan/gradient) – `ios` – offline-first grades viewer for home access center
+- [**sortd**](https://github.com/KingJayan/sortd) – `daemon` – sorts your files by custom path rules, runs in the background
+- [**OUTPOST**](https://github.com/KingJayan/OUTPOST) – `game` – singleplayer 3D fps in an infinite procedural world
 
 &nbsp;&nbsp;<img src="./assets/h-stack.svg" width="115%" alt="~/stack" />
 
