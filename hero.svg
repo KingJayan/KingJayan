@@ -70,11 +70,6 @@
       .shoot  { opacity: 0; animation: shoot 13s ease-out 3s infinite; }
       .cursor { animation: blink 1.1s steps(1) infinite; }
 
-      @media (prefers-reduced-motion: reduce) {
-        .deep, .mid, .fore, .tw, .tw2, .cursor { animation: none; }
-        .shoot { animation: none; opacity: 0; }
-      }
-
       .mono {
         font-family: ui-monospace, SFMono-Regular, "Geist Mono", Menlo, Consolas, monospace;
       }
@@ -174,7 +169,7 @@
       <tspan fill="#d4d4d8"> flagon</tspan>
       <tspan fill="#71717a"> — LWJGL in the browser</tspan>
     </text>
-    <rect class="cursor" x="345" y="-10" width="7" height="12" fill="#a1a1aa" />
+    <rect class="cursor" x="294" y="-10" width="7" height="12" fill="#a1a1aa" />
   </g>
   </g>
 
