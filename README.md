@@ -15,12 +15,18 @@
 <p>
   <img src="https://cdn.simpleicons.org/python/a1a1aa" height="25" alt="python" title="python" />&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/openjdk/a1a1aa" height="25" alt="java" title="java" />&nbsp;
-  <svg role="img" viewBox="0 0 23 23" xmlns="http://w3.org"><path d="M11 0h2v24h-2z" fill="currentColor" /></svg>&nbsp;
+<svg role="img" viewBox="0 0 24 24" xmlns="http://w3.org">
+  <path d="M11 0h2v24h-2z" fill="currentColor" />
+</svg>
+&nbsp;
   <img src="https://cdn.simpleicons.org/react/a1a1aa" height="25" alt="react native" title="react native" />&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/typescript/a1a1aa" height="25" alt="typescript" title="typescript" />&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/svelte/a1a1aa" height="25" alt="sveltekit" title="sveltekit" />&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/bun/a1a1aa" height="25" alt="bun" title="bun" />&nbsp;
-  <svg role="img" viewBox="0 0 23 23" xmlns="http://w3.org"><path d="M11 0h2v24h-2z" fill="currentColor" /></svg>&nbsp;
+<svg role="img" viewBox="0 0 24 24" xmlns="http://w3.org">
+  <path d="M11 0h2v24h-2z" fill="currentColor" />
+</svg>
+&nbsp;
   <img src="https://cdn.simpleicons.org/docker/a1a1aa" height="25" alt="docker" title="docker" />&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/cloudflare/a1a1aa" height="25" alt="cloudflare workers" title="cloudflare workers" />&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/vercel/a1a1aa" height="25" alt="vercel" title="vercel" />
