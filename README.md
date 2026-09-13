@@ -1,27 +1,27 @@
 <div align="center">
-  <img src="./hero.svg" width="100%" alt="Jayan Patel" />
+  <img src="./hero.svg" width="100%" alt="Jayan Patel — systems, compilers, robotics" />
 </div>
 
-<br>
+### ~/projects
 
-### What I'm Building
+- [**flagon**](https://github.com/KingJayan/flagon) &nbsp;`webgl` — unmodified java / lwjgl games, running in the browser
+- [**desmos-ide**](https://github.com/KingJayan/desmos-ide) &nbsp;`compiler` — a dsl + editor that compiles to desmos expressions
+- [**gradient**](https://github.com/KingJayan/gradient) &nbsp;`ios` — offline-first grades viewer for home access center
+- [**sortd**](https://github.com/KingJayan/sortd) &nbsp;`daemon` — sorts your files by custom path rules, in the background
+- [**OUTPOST**](https://github.com/KingJayan/OUTPOST) &nbsp;`game` — singleplayer voxel fps in an infinite procedural world
 
-* [**flagon**](https://github.com/KingJayan/flagon) — Tool for running unmodified desktop Java and LWJGL games directly in the browser via WebGL.
-* [**desmos-ide**](https://github.com/KingJayan/desmos-ide) — A custom DSL and code editor that compiles down into Desmos math expressions.
-* [**gradient**](https://github.com/KingJayan/gradient) — Offline-first iOS app for viewing Home Access Center grades without network lag.
-* [**sortd**](https://github.com/KingJayan/sortd) — Background service that automatically organizes files based on custom path rules.
-* [**OUTPOST**](https://github.com/KingJayan/OUTPOST) — Singleplayer voxel FPS set in an infinite procedural world.
+### ~/stack
 
-<br>
-
-### Stack
-
-Java, TypeScript, Python, React Native, SvelteKit, WebGL, Cloudflare Workers.
-
----
-
-<p align="center">
-  <a href="https://jayanpatel.vercel.app">portfolio</a> &nbsp;•&nbsp;
-  <a href="https://github.com/KingJayan">github</a> &nbsp;•&nbsp;
-  <a href="mailto:jayan@example.com">email</a>
+<p>
+  <img src="https://cdn.simpleicons.org/openjdk/a1a1aa" height="22" alt="java" title="java" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/typescript/a1a1aa" height="22" alt="typescript" title="typescript" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/python/a1a1aa" height="22" alt="python" title="python" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/react/a1a1aa" height="22" alt="react native" title="react native" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/svelte/a1a1aa" height="22" alt="sveltekit" title="sveltekit" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/webgl/a1a1aa" height="22" alt="webgl" title="webgl" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/cloudflareworkers/a1a1aa" height="22" alt="cloudflare workers" title="cloudflare workers" />
 </p>
+
+### ~/contact
+
+[portfolio](https://jayanpatel.vercel.app) &nbsp;·&nbsp; [email](mailto:jayanp0202@gmail.com)
