@@ -119,7 +119,7 @@
   <!-- header -->
   <g transform="translate(48, 40)">
     <text x="0" y="0" fill="#f4f4f5" font-size="17" font-weight="700" letter-spacing="0.5" class="mono">Jayan Patel</text>
-    <text x="0" y="20" fill="#71717a" font-size="11.5" class="mono">building tools that run where they shouldn't</text>
+    <text x="0" y="20" fill="#71717a" font-size="11.5" class="mono">building random tools for random things</text>
     <text x="784" y="0" fill="#71717a" font-size="12" text-anchor="end" class="mono">Austin, TX</text>
     <line x1="0" y1="36" x2="784" y2="36" stroke="#1c1f28" stroke-width="1" />
   </g>
