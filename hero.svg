@@ -130,8 +130,8 @@
     </g>
     <text x="18" y="32" fill="#f4f4f5" font-size="14" font-weight="600" class="mono">Systems &amp; Web</text>
     <line x1="16" y1="44" x2="210" y2="44" stroke="#1f2330" stroke-width="1" />
-    <text x="13" y="68" fill="#a1a1aa" font-size="12" class="mono">JVM games → the browser</text>
-    <text x="10.5" y="86" fill="#a1a1aa" font-size="12" class="mono">offline-first mobile</text>
+    <text x="13" y="68" fill="#a1a1aa" font-size="12" class="mono">opengl → webgl</text>
+    <text x="10.5" y="86" fill="#a1a1aa" font-size="12" class="mono">offline-first PWA</text>
     <text x="7.5" y="106" fill="#67e8f9" fill-opacity="0.7" font-size="11" class="mono">↳ flagon · gradient · sortd</text>
   </g>
 
@@ -141,10 +141,10 @@
       <rect x="0" y="0" width="240" height="120" rx="8" fill="url(#card-surface)" stroke="#222530" stroke-width="1.2" />
       <line x1="10" y1="0.6" x2="230" y2="0.6" stroke="url(#accent-violet)" stroke-width="1.2" />
     </g>
-    <text x="18" y="32" fill="#f4f4f5" font-size="14" font-weight="600" class="mono">Compilers &amp; Math</text>
+    <text x="18" y="32" fill="#f4f4f5" font-size="14" font-weight="600" class="mono">DSL &amp; Math</text>
     <line x1="16" y1="44" x2="210" y2="44" stroke="#1f2330" stroke-width="1" />
-    <text x="13" y="68" fill="#a1a1aa" font-size="12" class="mono">parsers, ASTs, grammars</text>
-    <text x="10.5" y="86" fill="#a1a1aa" font-size="12" class="mono">code → Desmos graphs</text>
+    <text x="13" y="68" fill="#a1a1aa" font-size="12" class="mono">lexers &amp; parsers</text>
+    <text x="10.5" y="86" fill="#a1a1aa" font-size="12" class="mono">`.dsmx` → Desmos graphs</text>
     <text x="7.5" y="106" fill="#a78bfa" fill-opacity="0.8" font-size="11" class="mono">↳ desmos-ide</text>
   </g>
 
@@ -156,8 +156,8 @@
     </g>
     <text x="18" y="32" fill="#f4f4f5" font-size="14" font-weight="600" class="mono">Robotics</text>
     <line x1="16" y1="44" x2="210" y2="44" stroke="#1f2330" stroke-width="1" />
-    <text x="13" y="68" fill="#a1a1aa" font-size="12" class="mono">drivetrain motion control</text>
-    <text x="10.5" y="86" fill="#a1a1aa" font-size="12" class="mono">kinematics, slew limiting</text>
+    <text x="13" y="68" fill="#a1a1aa" font-size="12" class="mono">advanced drivtrain kinematics</text>
+    <text x="10.5" y="86" fill="#a1a1aa" font-size="12" class="mono">slew & pid control</text>
     <text x="7.5" y="106" fill="#fbbf24" fill-opacity="0.7" font-size="11" class="mono">↳ FTC team #17113</text>
   </g>
 
