@@ -58,7 +58,8 @@ def num(v):
 
 def frame(u, z):
     head = 1 / z
-    tail = 1 / (z + travelled(u) - travelled(max(u - BLUR, 0)))
+    blur = travelled(u) - travelled(u - BLUR) if u >= BLUR else travelled(u) + S[-1] - travelled(u - BLUR + 1)
+    tail = 1 / (z + blur)
     size = min(2.2, 0.9 / math.sqrt(z))
     length = max((head - tail) * R_MIN * 2, size)
     fade = (1 - smoothstep(0.8, Z_FAR, z)) * (0.55 + 0.45 * (1 - z))
@@ -71,8 +72,8 @@ def keyframes(k):
     points = {i / 24 for i in range(25)} | {when(j * ZR / 18) for j in range(LOOPS * 18)}
     frames = [(u, depth(travelled(u))) for u in points]
     for j in range(LOOPS + 1):  # jump back to the far plane exactly at the wrap
-        u = when(j * ZR - offset)
-        if 0 < u < 1:
+        u = min(when(j * ZR - offset), 1)
+        if 0 < u:
             frames += [(u - 1e-5, Z_NEAR), (u, Z_FAR)]
     return f"@keyframes hs{k}{{{''.join(frame(u, max(z, Z_NEAR)) for u, z in sorted(frames))}}}"
 
