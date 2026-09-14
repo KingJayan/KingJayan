@@ -1,4 +1,4 @@
-name: Bump SVG Cache Query
+name: Reset SVG Cache
 
 on:
   push:
@@ -29,6 +29,6 @@ jobs:
           
           if ! git diff --quiet README.md; then
             git add README.md
-            git commit -m "bump svg version to ${{ github.sha }} [skip ci]"
+            git commit -m "bump svg version to ${{ github.sha }}"
             git push
           fi
