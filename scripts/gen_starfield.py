@@ -100,7 +100,15 @@ svg = re.sub(r'\s*<(linearGradient|radialGradient) id="(streak|glow|hyper)".*?</
 svg = re.sub(r"\n\s*(@keyframes (warp|drift|streak|twinkle|hs)|/\* (one 30s|motion blur|starfield)|\.(warp|deep|mid|fore|streaks|hs\d*)\b).*", "", svg)
 svg = re.sub(r'  (<g class="warp">|<!-- starfield -->).*?(?=  <!-- shooting star -->)', "", svg, flags=re.S)
 
-svg = svg.replace("\n\n    <style>", '\n\n    <linearGradient id="hyper">\n'
+# shooting stars only outside hyperspace
+shots = [(2, 1), (20.5, 1)]
+shoot = "".join(f"{pct(t / CYCLE)}%{{transform:translateX(0);opacity:0}}{pct((t + 0.1) / CYCLE)}%{{opacity:1}}"
+                f"{pct((t + d) / CYCLE)}%{{transform:translateX(340px);opacity:0}}" for t, d in shots)
+svg = re.sub(r"@keyframes shoot \{\n.*?\n      \}", f"@keyframes shoot {{0%{{opacity:0}}{shoot}100%{{opacity:0}}}}", svg, flags=re.S)
+svg = re.sub(r"@keyframes shoot \{0%.*", f"@keyframes shoot {{0%{{opacity:0}}{shoot}100%{{opacity:0}}}}", svg)
+svg = re.sub(r"animation: shoot [^;]*;", f"animation: shoot {CYCLE}s ease-out infinite;", svg)
+
+svg = svg.replace("\n\n    <style>",'\n\n    <linearGradient id="hyper">\n'
                   '      <stop offset="0%" stop-color="#9db8ff" stop-opacity="0" />\n'
                   '      <stop offset="100%" stop-color="#e8f0ff" stop-opacity="1" />\n'
                   "    </linearGradient>\n\n    <style>", 1)
