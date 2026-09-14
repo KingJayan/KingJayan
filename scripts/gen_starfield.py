@@ -1,25 +1,21 @@
-# starfield speed surge for hero.svg -- rewrites in place
+# hyperspace starfield for hero.svg -- rewrites in place
+
+# each star flies along a ray from the vanishing point: x = R / z
+import bisect
+import math
 import random
 import re
 
-WIDTH = 880  # px per loop (star tiles repeat at +880)
-BOOST = 4.0  # peak speed = 1+BOOST times cruise
-N = 400      # slices per cycle when integrating speed
-STEP = 40    # keyframes per 30s cycle
-WARP = 0.03  # extra scale at peak, toward the vanishing point
-VANISH = (660, 135)
-
-# name, surges per loop, streak length at peak (px)
-LAYERS = [("fore", 1, 70), ("mid", 2, 34), ("deep", 4, 12)]
-
-# star colors
-PALETTE = ["#ffffff"] * 14 + ["#dbe7ff"] * 3 + ["#fff1dc"] * 2 + ["#ffcf9e"]
-
-# extra star clumps
-BAND = [("deep", 110, (0.3, 0.7), (0.12, 0.3)), ("mid", 22, (0.7, 1.1), (0.3, 0.45))]
-
-# a few bright stars
-BRIGHT = [(212, 34, "#dbe7ff"), (455, 228, "#ffffff"), (812, 150, "#ffe2bf")]
+CYCLE = 24         # seconds
+CENTER = (440, 135)
+STARS = 520
+BUCKETS = 12       # depth phases; stars in a bucket share keyframes
+LOOPS = 3          # full depth passes per cycle
+PEAK = 18          # hyperspace speed, times cruise
+Z_NEAR, Z_FAR = 0.04, 1.0
+R_MIN, R_MAX = 20, 300
+BLUR = 0.02      # streak = distance covered in this much of the cycle
+DIM = 0.6          # keep it behind the content
 
 
 def smoothstep(a, b, x):
@@ -27,116 +23,89 @@ def smoothstep(a, b, x):
     return t * t * (3 - 2 * t)
 
 
-def surge(u):  # 0 at cruise, 1 at full speed
-    return smoothstep(0.35, 0.62, u) * (1 - smoothstep(0.68, 0.95, u))
+def speed(u):  # cruise -> ease in -> hyperspace -> ease out -> still -> cruise
+    up, down, back = smoothstep(0.40, 0.55, u), smoothstep(0.62, 0.80, u), smoothstep(0.90, 1.0, u)
+    return (1 + PEAK * up) * (1 - down) + back
 
 
-# dx covered at each phase of one cycle, 0..1
-dist = [0]
+# travelled depth over the cycle, normalized to LOOPS passes
+N = 4000
+ZR = Z_FAR - Z_NEAR
+S = [0]
 for i in range(N):
-    dist.append(dist[-1] + 1 + BOOST * surge(i / N))
-dist = [d / dist[-1] for d in dist]
+    S.append(S[-1] + speed((i + 0.5) / N))
+S = [s / S[-1] * LOOPS * ZR for s in S]
+
+
+def travelled(u):
+    i = min(int(u * N), N - 1)
+    return S[i] + (S[i + 1] - S[i]) * (u * N - i)
+
+
+def when(s):  # inverse of travelled
+    i = min(bisect.bisect_left(S, s), N) - 1
+    i = max(i, 0)
+    return (i + (s - S[i]) / (S[i + 1] - S[i] or 1)) / N
 
 
 def pct(u):
     return f"{u * 100:.3f}".rstrip("0").rstrip(".")
 
 
-def color(cx, cy):  # same color for both tile copies
-    return PALETTE[(int(float(cx)) % WIDTH * 7919 + int(float(cy)) * 104729) % len(PALETTE)]
+def num(v):
+    return f"{v:.3f}".rstrip("0").rstrip(".").replace("0.", ".", 1) if abs(v) < 1 else f"{v:.2f}"
 
+
+def frame(u, z):
+    head = 1 / z
+    tail = 1 / (z + travelled(u) - travelled(max(u - BLUR, 0)))
+    size = min(2.2, 0.9 / math.sqrt(z))
+    length = max((head - tail) * R_MIN * 2, size)
+    fade = (1 - smoothstep(0.8, Z_FAR, z)) * (0.55 + 0.45 * (1 - z))
+    return f"{pct(u)}%{{transform:translate({head:.3f}px)scale({num(length)},{num(size)});opacity:{num(fade)}}}"
+
+
+def keyframes(k):
+    offset = k / BUCKETS * ZR
+    depth = lambda s: Z_FAR - (offset + s) % ZR
+    points = {i / 24 for i in range(25)} | {when(j * ZR / 18) for j in range(LOOPS * 18)}
+    frames = [(u, depth(travelled(u))) for u in points]
+    for j in range(LOOPS + 1):  # jump back to the far plane exactly at the wrap
+        u = when(j * ZR - offset)
+        if 0 < u < 1:
+            frames += [(u - 1e-5, Z_NEAR), (u, Z_FAR)]
+    return f"@keyframes hs{k}{{{''.join(frame(u, max(z, Z_NEAR)) for u, z in sorted(frames))}}}"
+
+
+rng = random.Random(7)
+stars = []
+for _ in range(STARS):
+    r = R_MIN + (R_MAX - R_MIN) * rng.random() ** 1.3
+    k = rng.randrange(BUCKETS)
+    stars.append(
+        f'<g transform="rotate({rng.uniform(0, 360):.1f}) scale({r:.1f})">'
+        f'<rect class="hs{k}" x="-{num(1 / (R_MIN * 2))}" y="-{num(0.5 / r)}" width="{num(1 / (R_MIN * 2))}" '
+        f'height="{num(1 / r)}"/></g>')
+
+css = "\n      ".join(
+    ["/* starfield */"]
+    + [keyframes(k) for k in range(BUCKETS)]
+    + [".hs rect { fill: url(#hyper); opacity: 0; transform-box: view-box; transform-origin: 0 0; }"]
+    + [f".hs{k} {{ animation: hs{k} {CYCLE}s linear infinite; }}" for k in range(BUCKETS)])
 
 svg = open("hero.svg").read()
 
-# clear previous output
-svg = re.sub(r"\s*@keyframes (drift|streak|blur|warp)\w*-?\w*\{.*", "", svg)
-svg = re.sub(r"\s*<g class=\"streaks\">.*</g>", "", svg)
-svg = re.sub(r"<(circle|rect) class=\"gen[^>]*/>", "", svg)
-svg = re.sub(r'(opacity="[\d.]+") fill="#\w+"', r"\1", svg)
+# clear old starfields (sidescroller + previous runs)
+svg = re.sub(r'\s*<(linearGradient|radialGradient) id="(streak|glow|hyper)".*?</\1>', "", svg, flags=re.S)
+svg = re.sub(r"\n\s*(@keyframes (warp|drift|streak|twinkle|hs)|/\* (one 30s|motion blur|starfield)|\.(warp|deep|mid|fore|streaks|hs\d*)\b).*", "", svg)
+svg = re.sub(r'  (<g class="warp">|<!-- starfield -->).*?(?=  <!-- shooting star -->)', "", svg, flags=re.S)
 
-# no twinkle: that's atmosphere, not space
-svg = re.sub(r' class="tw2?"', "", svg)
-svg = re.sub(r"\s*\.tw2? +\{ animation: twinkle.*", "", svg)
-
-# doppler-tinted streaks: blue at the star, red at the tail
-svg = re.sub(
-    r'<linearGradient id="streak">.*?</linearGradient>',
-    '<linearGradient id="streak">\n      <stop offset="0%" stop-color="#cfe0ff" stop-opacity="0.85" />\n'
-    '      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.45" />\n'
-    '      <stop offset="100%" stop-color="#ff8f7a" stop-opacity="0" />\n    </linearGradient>',
-    svg, flags=re.S)
-if 'id="glow"' not in svg:
-    svg = svg.replace('    <style>', '    <radialGradient id="glow">\n      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35" />\n'
-                      '      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />\n    </radialGradient>\n\n    <style>', 1)
-
-# gentle zoom toward the vanishing point during the surge
-if 'class="warp"' not in svg:
-    svg = svg.replace("  <!-- stars bg -->", '  <g class="warp">\n  <!-- stars bg -->', 1)
-    svg = svg.replace("  <!-- shooting star -->", "  </g>\n\n  <!-- shooting star -->", 1)
-    svg = svg.replace("      .deep { animation", f"      .warp {{ transform-box: view-box; transform-origin: {VANISH[0]}px {VANISH[1]}px; "
-                      "animation: warp 30s linear infinite; }\n      .deep { animation", 1)
-
-# generated stars, both tile copies
-rng = random.Random(7)
-extra = {"fore": [], "mid": [], "deep": []}
-for name, count, (r0, r1), (o0, o1) in BAND:
-    for _ in range(count):
-        t = rng.random()
-        x = t * WIDTH
-        y = 250 - t * 230 + rng.gauss(0, 28)
-        if 0 < y < 270:
-            extra[name].append((round(x), round(y), round(rng.uniform(r0, r1), 1), round(rng.uniform(o0, o1), 2)))
-for x, y, c in BRIGHT:
-    for dx in (0, WIDTH):
-        extra["fore"].append(
-            f'<circle class="gen" cx="{x + dx}" cy="{y}" r="7" fill="url(#glow)"/>'
-            f'<rect class="gen" x="{x + dx - 7}" y="{y - 0.25}" width="14" height="0.5" fill="{c}" fill-opacity="0.18"/>'
-            f'<rect class="gen" x="{x + dx - 0.25}" y="{y - 5}" width="0.5" height="10" fill="{c}" fill-opacity="0.18"/>'
-            f'<circle class="gen" cx="{x + dx}" cy="{y}" r="2" opacity="0.95"/>')
-
-
-def add_colors(m):
-    return f'{m[0][:-2]} fill="{color(m[1], m[2])}"/>'
-
-
-kf = []
-warp = []
-for i in range(STEP + 1):
-    warp.append(f"{pct(i / STEP)}%{{transform:scale({1 + WARP * surge(i / STEP):.4f})}}")
-kf.append(f"@keyframes warp{{{''.join(warp)}}}")
-
-for name, n, length in LAYERS:
-    drift, streak = [], []
-    for i in range(n * STEP + 1):
-        u = i / (n * STEP)
-        k = min(int(u * n), n - 1)
-        f = u * n - k
-        s = surge(f)
-        x = -(k + dist[round(f * N)]) / n * WIDTH
-        drift.append(f"{pct(u)}%{{transform:translateX({x:.2f}px)}}")
-        streak.append(f"{pct(u)}%{{transform:scaleX({max(s * length, 0.01):.2f});opacity:{s:.3f}}}")
-    kf.append(f"@keyframes drift-{name}{{{''.join(drift)}}}")
-    kf.append(f"@keyframes streak-{name}{{{''.join(streak)}}}")
-
-    # band stars go right after the group tag
-    head = re.search(rf'<g class="{name}"[^>]*>', svg)
-    gen = "".join(e if isinstance(e, str) else
-                  f'<circle class="gen" cx="{e[0] + dx}" cy="{e[1]}" r="{e[2]}" opacity="{e[3]}"/>'
-                  for e in extra[name] for dx in ((0,) if isinstance(e, str) else (0, WIDTH)))
-    svg = svg[:head.end()] + gen + svg[head.end():]
-
-    group = re.search(rf'<g class="{name}"[^>]*>(.*?)</g>', svg, re.S)
-    body = re.sub(r'<circle (?:class="gen" )?cx="([\d.]+)" cy="([\d.]+)" r="[\d.]+" opacity="[\d.]+"/>', add_colors, group[1])
-    svg = svg[:group.start(1)] + body + svg[group.end(1):]
-
-    # one streak per star: 1px wide rect starting at the star, scaled out behind it
-    group = re.search(rf'<g class="{name}"[^>]*>(.*?)</g>', svg, re.S)
-    rects = "".join(
-        f'<rect x="{cx}" y="{float(cy) - float(r):g}" width="1" height="{2 * float(r):g}" fill-opacity="{op}"/>'
-        for cx, cy, r, op in re.findall(r'cx="([\d.]+)" cy="([\d.]+)" r="([\d.]+)" opacity="([\d.]+)"', group[1])
-    )
-    end = group.end() - len("</g>")
-    svg = svg[:end] + f'  <g class="streaks">{rects}</g>\n  ' + svg[end:]
-
-svg = svg.replace("<style>", "<style>\n      " + "\n      ".join(kf), 1)
+svg = svg.replace("\n\n    <style>", '\n\n    <linearGradient id="hyper">\n'
+                  '      <stop offset="0%" stop-color="#9db8ff" stop-opacity="0" />\n'
+                  '      <stop offset="100%" stop-color="#e8f0ff" stop-opacity="1" />\n'
+                  "    </linearGradient>\n\n    <style>", 1)
+svg = svg.replace("<style>", "<style>\n      " + css, 1)
+svg = svg.replace("  <!-- shooting star -->",
+                  f'  <!-- starfield -->\n  <g class="hs" transform="translate({CENTER[0]} {CENTER[1]})" opacity="{DIM}">'
+                  + "".join(stars) + "</g>\n\n  <!-- shooting star -->", 1)
 open("hero.svg", "w").write(svg)
