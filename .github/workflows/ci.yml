@@ -1,0 +1,34 @@
+name: Bump SVG Cache Query
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.svg'
+
+permissions:
+  contents: write
+
+jobs:
+  bump-cache:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update SVG cache buster in README
+        run: |
+          # replace query str's with commit hash
+          sed -i -E 's/(\.svg)(\?[^")]*)?/\1?v=${{ github.sha }}/g' README.md
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          if ! git diff --quiet README.md; then
+            git add README.md
+            git commit -m "bump svg version to ${{ github.sha }} [skip ci]"
+            git push
+          fi
