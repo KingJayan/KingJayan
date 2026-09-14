@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./hero.svg?v=2" width="100%" alt="Jayan Patel — systems, compilers, robotics" />
+  <img src="./hero.svg?v=3" width="100%" alt="Jayan Patel — systems, compilers, robotics" />
 </div>
 
 
