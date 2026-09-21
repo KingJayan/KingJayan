@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="./hero.svg?v=90cb1731ae09990e798b9e3195737145b1d280ea" width="100%" alt="Jayan Patel — systems, compilers, robotics" />
+  <img src="./hero.svg?v=e42ca6d528834403155a51d9b9e312083f69bc44" width="100%" alt="Jayan Patel — systems, compilers, robotics" />
 </div>
 
 
-&nbsp;&nbsp;<img src="./assets/h-projects.svg?v=90cb1731ae09990e798b9e3195737145b1d280ea" width="115%" alt="~/projects" />
+&nbsp;&nbsp;<img src="./assets/h-projects.svg?v=e42ca6d528834403155a51d9b9e312083f69bc44" width="115%" alt="~/projects" />
 
 - [**flagon**](https://github.com/KingJayan/flagon) – `webgl` – unmodified java in the browser
 - [**desmos-ide**](https://github.com/KingJayan/desmos-ide) – `math` – a dsl + ide that compiles to desmos expressions
@@ -11,7 +11,7 @@
 - [**sortd**](https://github.com/KingJayan/sortd) – `daemon` – sorts your files by custom path rules, runs in the background
 - [**OUTPOST**](https://github.com/KingJayan/OUTPOST) – `game` – singleplayer 3D fps in an infinite procedural world
 
-&nbsp;&nbsp;<img src="./assets/h-stack.svg?v=90cb1731ae09990e798b9e3195737145b1d280ea" width="115%" alt="~/stack" />
+&nbsp;&nbsp;<img src="./assets/h-stack.svg?v=e42ca6d528834403155a51d9b9e312083f69bc44" width="115%" alt="~/stack" />
 
 <p>
 &nbsp;&nbsp;
@@ -28,7 +28,7 @@
 
 </p>
 
-&nbsp;&nbsp;<img src="./assets/h-contact.svg?v=90cb1731ae09990e798b9e3195737145b1d280ea" width="115%" alt="~/contact" />
+&nbsp;&nbsp;<img src="./assets/h-contact.svg?v=e42ca6d528834403155a51d9b9e312083f69bc44" width="115%" alt="~/contact" />
 
 
 &nbsp;&nbsp;[portfolio](https://jayanpatel.vercel.app) &nbsp;·&nbsp; [email](mailto:jayanp0202@gmail.com)
