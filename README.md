@@ -28,6 +28,14 @@
 
 </p>
 
+&nbsp;&nbsp;<img src="./assets/h-learning.svg?v=ebd6e0aefbc008a73e0c12c04925c9c3a04395e0" width="115%" alt="~/stack" />
+
+<p>
+&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/swift/a1a1aa" height="25" alt="swift" title="swift" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/go/a1a1aa" height="25" alt="go" title="go" />
+</p>
+
 &nbsp;&nbsp;<img src="./assets/h-contact.svg?v=ebd6e0aefbc008a73e0c12c04925c9c3a04395e0" width="115%" alt="~/contact" />
 
 
