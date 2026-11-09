@@ -6,7 +6,7 @@
 <h2>
   Hi 👋, I'm Jayan Patel
 </h2>
-&nbsp;&nbsp;web dev &nbsp;·&nbsp; ftc robotics &nbsp;·&nbsp; competitive programming
+&nbsp;&nbsp;web dev &nbsp;·&nbsp; vex/ftc robotics &nbsp;·&nbsp; competitive programming
 
 &nbsp;&nbsp;<img src="./assets/h-projects.svg?v=ebd6e0aefbc008a73e0c12c04925c9c3a04395e0" width="115%" alt="~/projects" />
 
