@@ -3,7 +3,7 @@
 </h2>
 &nbsp;&nbsp;web dev &nbsp;·&nbsp; vex/ftc robotics &nbsp;·&nbsp; competitive programming
 
-&nbsp;&nbsp;<img src="./assets/h-projects.svg?v=e3bb2f2005f0d399eeae9550e0940a4d21c5c2f8" width="115%" alt="~/projects" />
+&nbsp;&nbsp;<img src="./assets/h-projects.svg?v=14b583c29a4fb081bf983f62da5e119ab581609a" width="115%" alt="~/projects" />
 
 &nbsp;&nbsp;▌ [**flagon**](https://github.com/KingJayan/flagon) – `webgl` – unmodified java in the browser<br>
 &nbsp;&nbsp;&ensp;&ensp;[**desmos-ide**](https://github.com/KingJayan/desmos-ide) – `math` – a dsl + ide that compiles to desmos expressions<br>
@@ -11,7 +11,7 @@
 &nbsp;&nbsp;&ensp;&ensp;[**sortd**](https://github.com/KingJayan/sortd) – `daemon` – sorts your files by custom path rules, runs in the background<br>
 &nbsp;&nbsp;&ensp;&ensp;[**OUTPOST**](https://github.com/KingJayan/OUTPOST) – `game` – singleplayer 3D fps in an infinite procedural world
 
-&nbsp;&nbsp;<img src="./assets/h-stack.svg?v=e3bb2f2005f0d399eeae9550e0940a4d21c5c2f8" width="115%" alt="~/stack" />
+&nbsp;&nbsp;<img src="./assets/h-stack.svg?v=14b583c29a4fb081bf983f62da5e119ab581609a" width="115%" alt="~/stack" />
 
 <p>
 &nbsp;&nbsp;
@@ -28,7 +28,7 @@
 
 </p>
 
-&nbsp;&nbsp;<img src="./assets/h-learning.svg?v=e3bb2f2005f0d399eeae9550e0940a4d21c5c2f8" width="115%" alt="~/learning" />
+&nbsp;&nbsp;<img src="./assets/h-learning.svg?v=14b583c29a4fb081bf983f62da5e119ab581609a" width="115%" alt="~/learning" />
 
 <p>
 &nbsp;&nbsp;
@@ -36,9 +36,9 @@
   <img src="https://cdn.simpleicons.org/go/a1a1aa" height="25" alt="go" title="go" />
 </p>
 
-&nbsp;&nbsp;<img src="./assets/h-contact.svg?v=e3bb2f2005f0d399eeae9550e0940a4d21c5c2f8" width="115%" alt="~/contact" />
+&nbsp;&nbsp;<img src="./assets/h-contact.svg?v=14b583c29a4fb081bf983f62da5e119ab581609a" width="115%" alt="~/contact" />
 
 
 &nbsp;&nbsp;[portfolio](https://jayanpatel.vercel.app) &nbsp;·&nbsp; [email](mailto:jayanp0202@gmail.com)
 
-&nbsp;&nbsp;<img src="./assets/h-prompt.svg?v=e3bb2f2005f0d399eeae9550e0940a4d21c5c2f8" width="115%" alt="" />
+&nbsp;&nbsp;<img src="./assets/h-prompt.svg?v=14b583c29a4fb081bf983f62da5e119ab581609a" width="115%" alt="" />
