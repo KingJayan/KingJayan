@@ -1,8 +1,3 @@
-<!--
-<div align="center">
-  <img src="./hero.svg?v=ebd6e0aefbc008a73e0c12c04925c9c3a04395e0" width="100%" alt="Jayan Patel — systems, compilers, robotics" />
-</div>
--->
 <h2>
   Hi 👋, I'm Jayan Patel
 </h2>
@@ -45,3 +40,5 @@
 
 
 &nbsp;&nbsp;[portfolio](https://jayanpatel.vercel.app) &nbsp;·&nbsp; [email](mailto:jayanp0202@gmail.com)
+
+&nbsp;&nbsp;<img src="./assets/h-prompt.svg" width="115%" alt="" />
