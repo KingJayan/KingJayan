@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="28" viewBox="0 0 880 28">
+  <defs><linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#1c2130" /><stop offset=".8" stop-color="#1c2130" stop-opacity="0" /></linearGradient></defs>
+  <rect x="0" y="2" width="880" height="24" fill="url(#hl)" />
+  <rect x="0" y="4" width="3" height="20" fill="#22c55e" />
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+    <text x="17" y="19" fill="#fafafa" font-weight="700">flagon</text>
+    <text x="125" y="19" fill="#52525b">webgl</text>
+    <text x="197" y="19" fill="#d4d4d8">unmodified java in the browser</text>
+  </g>
+</svg>

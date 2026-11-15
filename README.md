@@ -5,11 +5,12 @@
 
 &nbsp;&nbsp;<img src="./assets/h-projects.svg?v=14b583c29a4fb081bf983f62da5e119ab581609a" width="115%" alt="~/projects" />
 
-&nbsp;&nbsp;▌ [**flagon**](https://github.com/KingJayan/flagon) – `webgl` – unmodified java in the browser<br>
-&nbsp;&nbsp;&ensp;&ensp;[**desmos-ide**](https://github.com/KingJayan/desmos-ide) – `math` – a dsl + ide that compiles to desmos expressions<br>
-&nbsp;&nbsp;&ensp;&ensp;[**gradient**](https://github.com/KingJayan/gradient) – `ios` – offline-first grades viewer for home access center<br>
-&nbsp;&nbsp;&ensp;&ensp;[**sortd**](https://github.com/KingJayan/sortd) – `daemon` – sorts your files by custom path rules, runs in the background<br>
-&nbsp;&nbsp;&ensp;&ensp;[**OUTPOST**](https://github.com/KingJayan/OUTPOST) – `game` – singleplayer 3D fps in an infinite procedural world
+<img src="./assets/p-info.svg" width="100%" alt="5/5" /><br>
+<a href="https://github.com/KingJayan/flagon"><img src="./assets/p-flagon.svg" width="100%" alt="flagon – unmodified java in the browser" /></a><br>
+<a href="https://github.com/KingJayan/desmos-ide"><img src="./assets/p-desmos-ide.svg" width="100%" alt="desmos-ide – a dsl + ide that compiles to desmos expressions" /></a><br>
+<a href="https://github.com/KingJayan/gradient"><img src="./assets/p-gradient.svg" width="100%" alt="gradient – offline-first grades viewer for home access center" /></a><br>
+<a href="https://github.com/KingJayan/sortd"><img src="./assets/p-sortd.svg" width="100%" alt="sortd – sorts your files by custom path rules" /></a><br>
+<a href="https://github.com/KingJayan/OUTPOST"><img src="./assets/p-outpost.svg" width="100%" alt="OUTPOST – singleplayer 3D fps in an infinite procedural world" /></a>
 
 &nbsp;&nbsp;<img src="./assets/h-stack.svg?v=14b583c29a4fb081bf983f62da5e119ab581609a" width="115%" alt="~/stack" />
 
