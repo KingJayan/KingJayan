@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="22" viewBox="0 0 880 22">
+<svg xmlns="http://www.w3.org/2000/svg" width="1012" height="22" viewBox="0 0 1012 22">
   <defs><linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#1c2130" /><stop offset=".8" stop-color="#1c2130" stop-opacity="0" /></linearGradient></defs>
-  <rect x="0" y="1" width="880" height="20" fill="url(#hl)" />
+  <rect x="0" y="1" width="1012" height="20" fill="url(#hl)" />
   <rect x="0" y="3" width="3" height="16" fill="#22c55e" />
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
     <text x="17" y="15" fill="#fafafa" font-weight="700">flagon</text>
