@@ -5,11 +5,11 @@
 
 &nbsp;&nbsp;<img src="./assets/h-projects.svg?v=e3bb2f2005f0d399eeae9550e0940a4d21c5c2f8" width="115%" alt="~/projects" />
 
-- [**flagon**](https://github.com/KingJayan/flagon) – `webgl` – unmodified java in the browser
-- [**desmos-ide**](https://github.com/KingJayan/desmos-ide) – `math` – a dsl + ide that compiles to desmos expressions
-- [**gradient**](https://github.com/KingJayan/gradient) – `ios` – offline-first grades viewer for home access center
-- [**sortd**](https://github.com/KingJayan/sortd) – `daemon` – sorts your files by custom path rules, runs in the background
-- [**OUTPOST**](https://github.com/KingJayan/OUTPOST) – `game` – singleplayer 3D fps in an infinite procedural world
+&nbsp;&nbsp;▌ [**flagon**](https://github.com/KingJayan/flagon) – `webgl` – unmodified java in the browser<br>
+&nbsp;&nbsp;&ensp;&ensp;[**desmos-ide**](https://github.com/KingJayan/desmos-ide) – `math` – a dsl + ide that compiles to desmos expressions<br>
+&nbsp;&nbsp;&ensp;&ensp;[**gradient**](https://github.com/KingJayan/gradient) – `ios` – offline-first grades viewer for home access center<br>
+&nbsp;&nbsp;&ensp;&ensp;[**sortd**](https://github.com/KingJayan/sortd) – `daemon` – sorts your files by custom path rules, runs in the background<br>
+&nbsp;&nbsp;&ensp;&ensp;[**OUTPOST**](https://github.com/KingJayan/OUTPOST) – `game` – singleplayer 3D fps in an infinite procedural world
 
 &nbsp;&nbsp;<img src="./assets/h-stack.svg?v=e3bb2f2005f0d399eeae9550e0940a4d21c5c2f8" width="115%" alt="~/stack" />
 
@@ -28,7 +28,7 @@
 
 </p>
 
-&nbsp;&nbsp;<img src="./assets/h-learning.svg?v=e3bb2f2005f0d399eeae9550e0940a4d21c5c2f8" width="115%" alt="~/stack" />
+&nbsp;&nbsp;<img src="./assets/h-learning.svg?v=e3bb2f2005f0d399eeae9550e0940a4d21c5c2f8" width="115%" alt="~/learning" />
 
 <p>
 &nbsp;&nbsp;
