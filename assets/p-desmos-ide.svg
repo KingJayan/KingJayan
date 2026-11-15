@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="28" viewBox="0 0 880 28">
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
-    <text x="17" y="19" fill="#d4d4d8" font-weight="700">desmos-ide</text>
-    <text x="125" y="19" fill="#52525b">math</text>
-    <text x="197" y="19" fill="#a1a1aa">a dsl + ide that compiles to desmos expressions</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="22" viewBox="0 0 880 22">
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+    <text x="17" y="15" fill="#d4d4d8" font-weight="700">desmos-ide</text>
+    <text x="110.6" y="15" fill="#52525b">math</text>
+    <text x="173.0" y="15" fill="#a1a1aa">a dsl + ide that compiles to desmos expressions</text>
   </g>
 </svg>
