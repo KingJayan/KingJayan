@@ -34,7 +34,7 @@
 <p>
 &nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/swift/a1a1aa" height="25" alt="swift" title="swift" />&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/go/a1a1aa" height="25" alt="go" title="go" />
+  <img src="https://cdn.simpleicons.org/rust/a1a1aa" height="25" alt="rust" title="rust" />
 </p>
 
 &nbsp;&nbsp;<img src="./assets/h-contact.svg?v=88bc609140e5ae608ffe525029a7b4678dfd7dc1" width="115%" alt="~/contact" />
